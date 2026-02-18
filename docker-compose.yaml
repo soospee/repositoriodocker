@@ -11,7 +11,7 @@ services:
       - db_data:/var/lib/postgresql/data
 
   odoo:
-    image: odoo:19.0
+    build: .              # usar tu Dockerfile local
     depends_on:
       - db
     ports:

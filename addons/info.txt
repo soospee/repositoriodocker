@@ -1,0 +1,1 @@
+echo "Equipo 1" > addons/info.txt
